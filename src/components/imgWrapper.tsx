@@ -14,7 +14,7 @@ export const ImageWrapper: FC<{
       transition={{ type: "spring", damping: 20, duration: 2000 }}
       exit={{ y: -9999 }}
     >
-      <Image src={src} layout="fixed" width={700} height={400} alt={alt} />
+      <Image src={src} layout="responsive" width={700} height={400} alt={alt} />
     </motion.div>
   );
 };
