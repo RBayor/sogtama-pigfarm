@@ -26,6 +26,7 @@ const Home: NextPage = () => {
               layout="responsive"
               height={512}
               width={1440}
+              alt="landing bg"
               priority
             />
           </div>
@@ -34,6 +35,7 @@ const Home: NextPage = () => {
               className="relative object-cover blur-sm"
               src="/img/pig-phone.jpeg"
               layout="fill"
+              alt="landing bg"
               priority
             />
           </div>
@@ -44,6 +46,7 @@ const Home: NextPage = () => {
               layout="fixed"
               height={150}
               width={200}
+              alt="logo"
               priority
             />
 

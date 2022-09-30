@@ -11,6 +11,7 @@ export const LandingDesktop = () => {
           layout="fixed"
           height={150}
           width={200}
+          alt="logo"
           priority
         />
         <h1>Songtama</h1>
