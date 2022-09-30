@@ -1,3 +1,4 @@
+import Head from "next/head";
 import Link from "next/link";
 import React from "react";
 import { BlurImage, ImageT } from "../components/blurImg";
@@ -9,9 +10,12 @@ const Gallery = ({ images }: { images: ImageT[] }) => {
   // };
   return (
     <>
+      <Head>
+        <title>Gallery</title>
+      </Head>
       <div className="flex flex-col p-3 items-start max-w-2xl">
         <Link href="/">
-          <a className="ring-2 p-3 ring-emerald-500 hover:bg-emerald-700 rounded">
+          <a className="ring-2 p-3 ring-emerald-500 hover:bg-emerald-700 rounded hover:text-white">
             Home
           </a>
         </Link>
