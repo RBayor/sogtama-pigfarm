@@ -1,6 +1,5 @@
 import Image from "next/image";
 import { FC } from "react";
-import { motion } from "framer-motion";
 
 export const ImageWrapper: FC<{
   src: string;
@@ -8,13 +7,8 @@ export const ImageWrapper: FC<{
   enterLeft: boolean;
 }> = ({ src, alt, enterLeft }) => {
   return (
-    <motion.div
-      initial={{ x: enterLeft ? -1000 : 1000 }}
-      animate={{ x: 0 }}
-      transition={{ type: "spring", damping: 20, duration: 2000 }}
-      exit={{ y: -9999 }}
-    >
+    <div>
       <Image src={src} layout="responsive" width={700} height={400} alt={alt} />
-    </motion.div>
+    </div>
   );
 };
