@@ -12,7 +12,7 @@ const Home: NextPage = () => {
         <title>Songtama - Pig Farm</title>
         <meta
           name="description"
-          content="Saving and financial maanagement solution"
+          content="Songtama Pig Farm. Produce sales and skills training"
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
